@@ -1,0 +1,48 @@
+# Python bytecode и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+*.venv
+
+# Основные артефакты
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Секреты и конфиги с чувствительными данными
+.secrets.*
+.secrets
+.secret
+*.secret
+*.secrets
+.env
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*~
+
+# ОС и временные файлы
+.DS_Store
+desktop.ini
+
+# Тесты и покрытие
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+nox/
+
+# Возможный кэш
+.cache/
